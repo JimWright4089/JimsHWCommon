@@ -1,0 +1,3 @@
+/home/jim/jimscode/cpp/JimsHWCommon/build/CMakeFiles/i2cTest.dir
+/home/jim/jimscode/cpp/JimsHWCommon/build/CMakeFiles/edit_cache.dir
+/home/jim/jimscode/cpp/JimsHWCommon/build/CMakeFiles/rebuild_cache.dir
