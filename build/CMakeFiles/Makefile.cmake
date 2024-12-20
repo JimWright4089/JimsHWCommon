@@ -96,4 +96,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/i2cTest.dir/DependInfo.cmake"
+  "CMakeFiles/tmp117Test.dir/DependInfo.cmake"
+  "CMakeFiles/ads1015Test.dir/DependInfo.cmake"
   )

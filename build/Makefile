@@ -129,12 +129,40 @@ i2cTest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/build
 .PHONY : i2cTest/fast
 
+#=============================================================================
+# Target rules for targets named tmp117Test
+
+# Build rule for target.
+tmp117Test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tmp117Test
+.PHONY : tmp117Test
+
+# fast build rule for target.
+tmp117Test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/build
+.PHONY : tmp117Test/fast
+
+#=============================================================================
+# Target rules for targets named ads1015Test
+
+# Build rule for target.
+ads1015Test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ads1015Test
+.PHONY : ads1015Test
+
+# fast build rule for target.
+ads1015Test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/build
+.PHONY : ads1015Test/fast
+
 home/jim/jimscode/cpp/JimsCommon/source/connection.o: home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.o
 .PHONY : home/jim/jimscode/cpp/JimsCommon/source/connection.o
 
 # target to build an object file
 home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.o
 .PHONY : home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.o
 
 home/jim/jimscode/cpp/JimsCommon/source/connection.i: home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.i
@@ -143,6 +171,8 @@ home/jim/jimscode/cpp/JimsCommon/source/connection.i: home/jim/jimscode/cpp/Jims
 # target to preprocess a source file
 home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.i
 .PHONY : home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.i
 
 home/jim/jimscode/cpp/JimsCommon/source/connection.s: home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.s
@@ -151,6 +181,8 @@ home/jim/jimscode/cpp/JimsCommon/source/connection.s: home/jim/jimscode/cpp/Jims
 # target to generate assembly for a file
 home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.s
 .PHONY : home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.s
 
 home/jim/jimscode/cpp/JimsCommon/source/logger.o: home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.o
@@ -159,6 +191,8 @@ home/jim/jimscode/cpp/JimsCommon/source/logger.o: home/jim/jimscode/cpp/JimsComm
 # target to build an object file
 home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.o
 .PHONY : home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.o
 
 home/jim/jimscode/cpp/JimsCommon/source/logger.i: home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.i
@@ -167,6 +201,8 @@ home/jim/jimscode/cpp/JimsCommon/source/logger.i: home/jim/jimscode/cpp/JimsComm
 # target to preprocess a source file
 home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.i
 .PHONY : home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.i
 
 home/jim/jimscode/cpp/JimsCommon/source/logger.s: home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.s
@@ -175,6 +211,8 @@ home/jim/jimscode/cpp/JimsCommon/source/logger.s: home/jim/jimscode/cpp/JimsComm
 # target to generate assembly for a file
 home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.s
 .PHONY : home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.s
 
 home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.o: home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.o
@@ -183,6 +221,8 @@ home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.o: home/jim/jimscode/cpp
 # target to build an object file
 home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.o
 .PHONY : home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.o
 
 home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.i: home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.i
@@ -191,6 +231,8 @@ home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.i: home/jim/jimscode/cpp
 # target to preprocess a source file
 home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.i
 .PHONY : home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.i
 
 home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.s: home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.s
@@ -199,6 +241,8 @@ home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.s: home/jim/jimscode/cpp
 # target to generate assembly for a file
 home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.s
 .PHONY : home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.s
 
 home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.o: home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.o
@@ -207,6 +251,8 @@ home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.o: home/jim/jimscode/cpp
 # target to build an object file
 home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.o
 .PHONY : home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.o
 
 home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.i: home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.i
@@ -215,6 +261,8 @@ home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.i: home/jim/jimscode/cpp
 # target to preprocess a source file
 home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.i
 .PHONY : home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.i
 
 home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.s: home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.s
@@ -223,7 +271,33 @@ home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.s: home/jim/jimscode/cpp
 # target to generate assembly for a file
 home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.s
 .PHONY : home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.s
+
+source/ads1015.o: source/ads1015.cpp.o
+.PHONY : source/ads1015.o
+
+# target to build an object file
+source/ads1015.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/source/ads1015.cpp.o
+.PHONY : source/ads1015.cpp.o
+
+source/ads1015.i: source/ads1015.cpp.i
+.PHONY : source/ads1015.i
+
+# target to preprocess a source file
+source/ads1015.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/source/ads1015.cpp.i
+.PHONY : source/ads1015.cpp.i
+
+source/ads1015.s: source/ads1015.cpp.s
+.PHONY : source/ads1015.s
+
+# target to generate assembly for a file
+source/ads1015.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/source/ads1015.cpp.s
+.PHONY : source/ads1015.cpp.s
 
 source/raspi/i2c.o: source/raspi/i2c.cpp.o
 .PHONY : source/raspi/i2c.o
@@ -231,6 +305,8 @@ source/raspi/i2c.o: source/raspi/i2c.cpp.o
 # target to build an object file
 source/raspi/i2c.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/source/raspi/i2c.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/source/raspi/i2c.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/source/raspi/i2c.cpp.o
 .PHONY : source/raspi/i2c.cpp.o
 
 source/raspi/i2c.i: source/raspi/i2c.cpp.i
@@ -239,6 +315,8 @@ source/raspi/i2c.i: source/raspi/i2c.cpp.i
 # target to preprocess a source file
 source/raspi/i2c.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/source/raspi/i2c.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/source/raspi/i2c.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/source/raspi/i2c.cpp.i
 .PHONY : source/raspi/i2c.cpp.i
 
 source/raspi/i2c.s: source/raspi/i2c.cpp.s
@@ -247,7 +325,57 @@ source/raspi/i2c.s: source/raspi/i2c.cpp.s
 # target to generate assembly for a file
 source/raspi/i2c.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/source/raspi/i2c.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/source/raspi/i2c.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/source/raspi/i2c.cpp.s
 .PHONY : source/raspi/i2c.cpp.s
+
+source/tmp117.o: source/tmp117.cpp.o
+.PHONY : source/tmp117.o
+
+# target to build an object file
+source/tmp117.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/source/tmp117.cpp.o
+.PHONY : source/tmp117.cpp.o
+
+source/tmp117.i: source/tmp117.cpp.i
+.PHONY : source/tmp117.i
+
+# target to preprocess a source file
+source/tmp117.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/source/tmp117.cpp.i
+.PHONY : source/tmp117.cpp.i
+
+source/tmp117.s: source/tmp117.cpp.s
+.PHONY : source/tmp117.s
+
+# target to generate assembly for a file
+source/tmp117.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/source/tmp117.cpp.s
+.PHONY : source/tmp117.cpp.s
+
+test/ads1015Test.o: test/ads1015Test.cpp.o
+.PHONY : test/ads1015Test.o
+
+# target to build an object file
+test/ads1015Test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/test/ads1015Test.cpp.o
+.PHONY : test/ads1015Test.cpp.o
+
+test/ads1015Test.i: test/ads1015Test.cpp.i
+.PHONY : test/ads1015Test.i
+
+# target to preprocess a source file
+test/ads1015Test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/test/ads1015Test.cpp.i
+.PHONY : test/ads1015Test.cpp.i
+
+test/ads1015Test.s: test/ads1015Test.cpp.s
+.PHONY : test/ads1015Test.s
+
+# target to generate assembly for a file
+test/ads1015Test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/test/ads1015Test.cpp.s
+.PHONY : test/ads1015Test.cpp.s
 
 test/i2cTest.o: test/i2cTest.cpp.o
 .PHONY : test/i2cTest.o
@@ -273,6 +401,30 @@ test/i2cTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/test/i2cTest.cpp.s
 .PHONY : test/i2cTest.cpp.s
 
+test/tmp117Test.o: test/tmp117Test.cpp.o
+.PHONY : test/tmp117Test.o
+
+# target to build an object file
+test/tmp117Test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/test/tmp117Test.cpp.o
+.PHONY : test/tmp117Test.cpp.o
+
+test/tmp117Test.i: test/tmp117Test.cpp.i
+.PHONY : test/tmp117Test.i
+
+# target to preprocess a source file
+test/tmp117Test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/test/tmp117Test.cpp.i
+.PHONY : test/tmp117Test.cpp.i
+
+test/tmp117Test.s: test/tmp117Test.cpp.s
+.PHONY : test/tmp117Test.s
+
+# target to generate assembly for a file
+test/tmp117Test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/test/tmp117Test.cpp.s
+.PHONY : test/tmp117Test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -281,7 +433,9 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... ads1015Test"
 	@echo "... i2cTest"
+	@echo "... tmp117Test"
 	@echo "... home/jim/jimscode/cpp/JimsCommon/source/connection.o"
 	@echo "... home/jim/jimscode/cpp/JimsCommon/source/connection.i"
 	@echo "... home/jim/jimscode/cpp/JimsCommon/source/connection.s"
@@ -294,12 +448,24 @@ help:
 	@echo "... home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.o"
 	@echo "... home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.i"
 	@echo "... home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.s"
+	@echo "... source/ads1015.o"
+	@echo "... source/ads1015.i"
+	@echo "... source/ads1015.s"
 	@echo "... source/raspi/i2c.o"
 	@echo "... source/raspi/i2c.i"
 	@echo "... source/raspi/i2c.s"
+	@echo "... source/tmp117.o"
+	@echo "... source/tmp117.i"
+	@echo "... source/tmp117.s"
+	@echo "... test/ads1015Test.o"
+	@echo "... test/ads1015Test.i"
+	@echo "... test/ads1015Test.s"
 	@echo "... test/i2cTest.o"
 	@echo "... test/i2cTest.i"
 	@echo "... test/i2cTest.s"
+	@echo "... test/tmp117Test.o"
+	@echo "... test/tmp117Test.i"
+	@echo "... test/tmp117Test.s"
 .PHONY : help
 
 

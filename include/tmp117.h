@@ -1,16 +1,15 @@
 //----------------------------------------------------------------------------
 //
-//  Workfile: i2c.h
+//  Workfile: tmp117.h
 //
 //  Copyright: Jim Wright 2024
 //
 //  Notes:
-//     This is the I2C interface header
-//     Include the correct hardware source file
+//     This is the interface to the TMP117
 //
 //----------------------------------------------------------------------------
-#ifndef I2C_H
-#define I2C_H
+#ifndef TMP117_H
+#define TMP117_H
 
 //----------------------------------------------------------------------------
 //  Includes
@@ -18,6 +17,7 @@
 #include <string>
 #include <mutex>
 #include "connection.h"
+#include "i2c.h"
 
 //----------------------------------------------------------------------------
 //  Class Declarations
@@ -29,46 +29,34 @@
 //      Handle the I2C protocol
 //
 //----------------------------------------------------------------------------
-class I2C
+class TMP117
 {
   public:
-    //----------------------------------------------------------------------------
-    //  Class constants
-    //----------------------------------------------------------------------------
-    static const uint16_t I2C_UINT16_BAD_VALUE = 65535;
 
     //----------------------------------------------------------------------------
     //  Class Methods
     //----------------------------------------------------------------------------
-    I2C();  
-    ~I2C();
-    void loadConfiguration(std::string fileName);
-    void openPort();
-    void closePort();
-    uint16_t read16Register(uint8_t reg);
-    int writeReadFromDevice(uint8_t *dataToWrite, int lengthToWrite, uint8_t *dataRead, int *lengthRead);
-    int readFromDevice(uint8_t *dataRead, int *lengthRead);
-    int writeFromDevice(uint8_t *data, int length);
+    TMP117();  
+    ~TMP117();
+    void loadConfiguration(std::string filename);
+    void openTMP117();
+    void closeTMP117();
+    double readC();
 
   protected:
     //----------------------------------------------------------------------------
     //  Class constants
     //----------------------------------------------------------------------------
-    const int BAD_I2C_PORT = -1;
+    const uint8_t TMP117_TEMP_RESULT = 0X00;
+    const double  TMP117_C_CONVERSION = 0.0078;
 
     //----------------------------------------------------------------------------
     //  Class Atributes
     //----------------------------------------------------------------------------
-    Connection mConnection;
-    static std::mutex mI2CMutex;
-    int mDeviceFilePointer;
-    int mAddress;
+    I2C mI2CDevice;
 
     //----------------------------------------------------------------------------
     //  Class Methods
     //----------------------------------------------------------------------------
-    int rawRead(uint8_t *dataRead, int *lengthRead);
-    int rawWrite(uint8_t *data, int length);
-    int setAddress(uint8_t address);
 };
 #endif

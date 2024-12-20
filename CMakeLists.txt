@@ -27,3 +27,26 @@ add_executable(i2cTest
 )
 target_link_libraries(i2cTest jsoncpp ${Boost_LIBRARIES})
 
+add_executable(tmp117Test
+../JimsCommon/source/randomSingleton.cpp
+../JimsCommon/source/connection.cpp
+../JimsCommon/source/logger.cpp
+../JimsCommon/source/loggerSingleton.cpp
+./source/raspi/i2c.cpp
+./source/tmp117.cpp
+./test/tmp117Test.cpp
+)
+target_link_libraries(tmp117Test jsoncpp ${Boost_LIBRARIES})
+
+add_executable(ads1015Test
+../JimsCommon/source/randomSingleton.cpp
+../JimsCommon/source/connection.cpp
+../JimsCommon/source/logger.cpp
+../JimsCommon/source/loggerSingleton.cpp
+./source/raspi/i2c.cpp
+./source/ads1015.cpp
+./test/ads1015Test.cpp
+)
+target_link_libraries(ads1015Test jsoncpp ${Boost_LIBRARIES})
+
+
