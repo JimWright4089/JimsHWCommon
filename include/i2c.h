@@ -41,9 +41,9 @@ class I2C
     void loadConfiguration(std::string fileName);
     void openPort();
     void closePort();
-    int writeRead(int command, uint8_t dataToWrite, int lengthToWrite, uint8_t dataRead, int *lengthRead);
-    int read(uint8_t dataRead, int *lengthRead);
-    int write(int command, uint8_t data, int length);
+    int writeReadFromDevice(uint8_t *dataToWrite, int lengthToWrite, uint8_t *dataRead, int *lengthRead);
+    int readFromDevice(uint8_t *dataRead, int *lengthRead);
+    int writeFromDevice(uint8_t *data, int length);
 
   protected:
     //----------------------------------------------------------------------------
@@ -57,12 +57,13 @@ class I2C
     Connection mConnection;
     static std::mutex mI2CMutex;
     int mDeviceFilePointer;
-
+    int mAddress;
 
     //----------------------------------------------------------------------------
     //  Class Methods
     //----------------------------------------------------------------------------
-    int rawRead(uint8_t dataRead, int *lengthRead);
-    int rawWrite(int command, uint8_t data, int length);
+    int rawRead(uint8_t *dataRead, int *lengthRead);
+    int rawWrite(uint8_t *data, int length);
+    int setAddress(uint8_t address);
 };
 #endif

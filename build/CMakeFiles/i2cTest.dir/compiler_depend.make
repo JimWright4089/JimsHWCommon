@@ -8098,6 +8098,7 @@ CMakeFiles/i2cTest.dir/source/raspi/i2c.cpp.o: /home/jim/jimscode/cpp/JimsHWComm
   /usr/include/c++/14/bits/std_abs.h \
   /usr/include/c++/14/bits/std_function.h \
   /usr/include/c++/14/bits/std_mutex.h \
+  /usr/include/c++/14/bits/std_thread.h \
   /usr/include/c++/14/bits/stl_algo.h \
   /usr/include/c++/14/bits/stl_algobase.h \
   /usr/include/c++/14/bits/stl_bvector.h \
@@ -8124,6 +8125,7 @@ CMakeFiles/i2cTest.dir/source/raspi/i2c.cpp.o: /home/jim/jimscode/cpp/JimsHWComm
   /usr/include/c++/14/bits/streambuf_iterator.h \
   /usr/include/c++/14/bits/string_view.tcc \
   /usr/include/c++/14/bits/stringfwd.h \
+  /usr/include/c++/14/bits/this_thread_sleep.h \
   /usr/include/c++/14/bits/uniform_int_dist.h \
   /usr/include/c++/14/bits/unique_lock.h \
   /usr/include/c++/14/bits/unique_ptr.h \
@@ -8136,6 +8138,7 @@ CMakeFiles/i2cTest.dir/source/raspi/i2c.cpp.o: /home/jim/jimscode/cpp/JimsHWComm
   /usr/include/c++/14/cassert \
   /usr/include/c++/14/cctype \
   /usr/include/c++/14/cerrno \
+  /usr/include/c++/14/chrono \
   /usr/include/c++/14/climits \
   /usr/include/c++/14/clocale \
   /usr/include/c++/14/cmath \
@@ -8190,6 +8193,7 @@ CMakeFiles/i2cTest.dir/source/raspi/i2c.cpp.o: /home/jim/jimscode/cpp/JimsHWComm
   /usr/include/c++/14/string \
   /usr/include/c++/14/string_view \
   /usr/include/c++/14/system_error \
+  /usr/include/c++/14/thread \
   /usr/include/c++/14/tr1/bessel_function.tcc \
   /usr/include/c++/14/tr1/beta_function.tcc \
   /usr/include/c++/14/tr1/ell_integral.tcc \
@@ -8230,6 +8234,7 @@ CMakeFiles/i2cTest.dir/source/raspi/i2c.cpp.o: /home/jim/jimscode/cpp/JimsHWComm
   /usr/include/linux/errno.h \
   /usr/include/linux/falloc.h \
   /usr/include/linux/futex.h \
+  /usr/include/linux/i2c-dev.h \
   /usr/include/linux/ioctl.h \
   /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
@@ -8263,6 +8268,8 @@ CMakeFiles/i2cTest.dir/test/i2cTest.cpp.o: /home/jim/jimscode/cpp/JimsHWCommon/t
   /home/jim/jimscode/cpp/JimsHWCommon/include/i2c.h \
   /usr/include/aarch64-linux-gnu/asm/bitsperlong.h \
   /usr/include/aarch64-linux-gnu/asm/errno.h \
+  /usr/include/aarch64-linux-gnu/asm/ioctl.h \
+  /usr/include/aarch64-linux-gnu/asm/ioctls.h \
   /usr/include/aarch64-linux-gnu/asm/posix_types.h \
   /usr/include/aarch64-linux-gnu/asm/types.h \
   /usr/include/aarch64-linux-gnu/asm/unistd.h \
@@ -8275,6 +8282,8 @@ CMakeFiles/i2cTest.dir/test/i2cTest.cpp.o: /home/jim/jimscode/cpp/JimsHWCommon/t
   /usr/include/aarch64-linux-gnu/bits/endianness.h \
   /usr/include/aarch64-linux-gnu/bits/environments.h \
   /usr/include/aarch64-linux-gnu/bits/errno.h \
+  /usr/include/aarch64-linux-gnu/bits/fcntl-linux.h \
+  /usr/include/aarch64-linux-gnu/bits/fcntl.h \
   /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
   /usr/include/aarch64-linux-gnu/bits/floatn.h \
   /usr/include/aarch64-linux-gnu/bits/flt-eval-method.h \
@@ -8282,6 +8291,8 @@ CMakeFiles/i2cTest.dir/test/i2cTest.cpp.o: /home/jim/jimscode/cpp/JimsHWCommon/t
   /usr/include/aarch64-linux-gnu/bits/fp-logb.h \
   /usr/include/aarch64-linux-gnu/bits/getopt_core.h \
   /usr/include/aarch64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/aarch64-linux-gnu/bits/ioctl-types.h \
+  /usr/include/aarch64-linux-gnu/bits/ioctls.h \
   /usr/include/aarch64-linux-gnu/bits/iscanonical.h \
   /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
   /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -8301,6 +8312,7 @@ CMakeFiles/i2cTest.dir/test/i2cTest.cpp.o: /home/jim/jimscode/cpp/JimsHWCommon/t
   /usr/include/aarch64-linux-gnu/bits/sched.h \
   /usr/include/aarch64-linux-gnu/bits/select.h \
   /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/stat.h \
   /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
   /usr/include/aarch64-linux-gnu/bits/stdint-least.h \
   /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
@@ -8308,6 +8320,7 @@ CMakeFiles/i2cTest.dir/test/i2cTest.cpp.o: /home/jim/jimscode/cpp/JimsHWCommon/t
   /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
   /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
   /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_stat.h \
   /usr/include/aarch64-linux-gnu/bits/syscall.h \
   /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/aarch64-linux-gnu/bits/time.h \
@@ -8331,6 +8344,7 @@ CMakeFiles/i2cTest.dir/test/i2cTest.cpp.o: /home/jim/jimscode/cpp/JimsHWCommon/t
   /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
   /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_iovec.h \
   /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
   /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
   /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
@@ -8366,16 +8380,20 @@ CMakeFiles/i2cTest.dir/test/i2cTest.cpp.o: /home/jim/jimscode/cpp/JimsHWCommon/t
   /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
   /usr/include/aarch64-linux-gnu/gnu/stubs.h \
   /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/sys/ioctl.h \
   /usr/include/aarch64-linux-gnu/sys/select.h \
   /usr/include/aarch64-linux-gnu/sys/single_threaded.h \
   /usr/include/aarch64-linux-gnu/sys/syscall.h \
   /usr/include/aarch64-linux-gnu/sys/time.h \
+  /usr/include/aarch64-linux-gnu/sys/ttydefaults.h \
   /usr/include/aarch64-linux-gnu/sys/types.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/int-ll64.h \
+  /usr/include/asm-generic/ioctl.h \
+  /usr/include/asm-generic/ioctls.h \
   /usr/include/asm-generic/posix_types.h \
   /usr/include/asm-generic/types.h \
   /usr/include/assert.h \
@@ -10114,6 +10132,7 @@ CMakeFiles/i2cTest.dir/test/i2cTest.cpp.o: /home/jim/jimscode/cpp/JimsHWCommon/t
   /usr/include/c++/14/bits/std_abs.h \
   /usr/include/c++/14/bits/std_function.h \
   /usr/include/c++/14/bits/std_mutex.h \
+  /usr/include/c++/14/bits/std_thread.h \
   /usr/include/c++/14/bits/stl_algo.h \
   /usr/include/c++/14/bits/stl_algobase.h \
   /usr/include/c++/14/bits/stl_bvector.h \
@@ -10140,6 +10159,7 @@ CMakeFiles/i2cTest.dir/test/i2cTest.cpp.o: /home/jim/jimscode/cpp/JimsHWCommon/t
   /usr/include/c++/14/bits/streambuf_iterator.h \
   /usr/include/c++/14/bits/string_view.tcc \
   /usr/include/c++/14/bits/stringfwd.h \
+  /usr/include/c++/14/bits/this_thread_sleep.h \
   /usr/include/c++/14/bits/uniform_int_dist.h \
   /usr/include/c++/14/bits/unique_lock.h \
   /usr/include/c++/14/bits/unique_ptr.h \
@@ -10152,6 +10172,7 @@ CMakeFiles/i2cTest.dir/test/i2cTest.cpp.o: /home/jim/jimscode/cpp/JimsHWCommon/t
   /usr/include/c++/14/cassert \
   /usr/include/c++/14/cctype \
   /usr/include/c++/14/cerrno \
+  /usr/include/c++/14/chrono \
   /usr/include/c++/14/climits \
   /usr/include/c++/14/clocale \
   /usr/include/c++/14/cmath \
@@ -10205,6 +10226,7 @@ CMakeFiles/i2cTest.dir/test/i2cTest.cpp.o: /home/jim/jimscode/cpp/JimsHWCommon/t
   /usr/include/c++/14/string \
   /usr/include/c++/14/string_view \
   /usr/include/c++/14/system_error \
+  /usr/include/c++/14/thread \
   /usr/include/c++/14/tr1/bessel_function.tcc \
   /usr/include/c++/14/tr1/beta_function.tcc \
   /usr/include/c++/14/tr1/ell_integral.tcc \
@@ -10227,6 +10249,7 @@ CMakeFiles/i2cTest.dir/test/i2cTest.cpp.o: /home/jim/jimscode/cpp/JimsHWCommon/t
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
+  /usr/include/fcntl.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
   /usr/include/jsoncpp/json/allocator.h \
@@ -10242,7 +10265,10 @@ CMakeFiles/i2cTest.dir/test/i2cTest.cpp.o: /home/jim/jimscode/cpp/JimsHWCommon/t
   /usr/include/limits.h \
   /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/falloc.h \
   /usr/include/linux/futex.h \
+  /usr/include/linux/i2c-dev.h \
+  /usr/include/linux/ioctl.h \
   /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/stddef.h \
@@ -10947,6 +10973,8 @@ CMakeFiles/i2cTest.dir/test/i2cTest.cpp.o: /home/jim/jimscode/cpp/JimsHWCommon/t
 
 /usr/include/boost/preprocessor/selection/max.hpp:
 
+/usr/include/c++/14/thread:
+
 /usr/include/boost/preprocessor/repetition/repeat_from_to.hpp:
 
 /usr/include/boost/preprocessor/repetition/limits/repeat_256.hpp:
@@ -11149,6 +11177,8 @@ CMakeFiles/i2cTest.dir/test/i2cTest.cpp.o: /home/jim/jimscode/cpp/JimsHWCommon/t
 
 /usr/include/boost/predef/os/bsd.h:
 
+/usr/include/c++/14/bits/std_thread.h:
+
 /usr/include/boost/predef/os.h:
 
 /usr/include/boost/predef/make.h:
@@ -11294,6 +11324,8 @@ CMakeFiles/i2cTest.dir/test/i2cTest.cpp.o: /home/jim/jimscode/cpp/JimsHWCommon/t
 /usr/include/boost/predef/architecture/x86/32.h:
 
 /usr/include/boost/predef/architecture/x86.h:
+
+/usr/include/linux/i2c-dev.h:
 
 /usr/include/boost/predef/architecture/sys370.h:
 
@@ -13494,6 +13526,8 @@ CMakeFiles/i2cTest.dir/test/i2cTest.cpp.o: /home/jim/jimscode/cpp/JimsHWCommon/t
 /usr/include/boost/log/trivial.hpp:
 
 /usr/include/boost/log/utility/formatting_ostream_fwd.hpp:
+
+/usr/include/c++/14/bits/this_thread_sleep.h:
 
 /usr/include/boost/log/utility/functional/bind.hpp:
 
