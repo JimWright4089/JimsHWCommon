@@ -137,7 +137,7 @@ int I2C::writeReadFromDevice(
       uint8_t *dataToWrite, int lengthToWrite, 
       uint8_t *dataRead, int *lengthRead)
 {
-  LoggerSingleton::getInstance()->writeDebug("I2C::writeReadFromDevice");
+  LoggerSingleton::getInstance()->writeDebug("I2C::writeReadToDevice");
 
   if(BAD_I2C_PORT == mDeviceFilePointer)
   {
@@ -183,7 +183,7 @@ int I2C::readFromDevice(uint8_t *dataRead, int *lengthRead)
 //  Notes:
 //
 //----------------------------------------------------------------------------
-int I2C::writeFromDevice(uint8_t *data, int length)
+int I2C::writeToDevice(uint8_t *data, int length)
 {
   LoggerSingleton::getInstance()->writeDebug("I2C::writeFromDevice");
 
@@ -292,4 +292,41 @@ uint16_t I2C::read16Register(uint8_t reg)
   }
 
   return (readBuffer[0]*0x100)+readBuffer[1];
+}
+
+//----------------------------------------------------------------------------
+//  Purpose:
+//   Open the port
+//
+//  Notes:
+//
+//----------------------------------------------------------------------------
+int I2C::writeCommand(uint8_t command)
+{
+  LoggerSingleton::getInstance()->writeDebug("I2C::writeCommand");
+
+  uint8_t writeBuffer[1];
+  uint8_t writeLen = 1;
+  writeBuffer[0] = command;
+
+  return writeToDevice(writeBuffer, writeLen);
+}
+
+//----------------------------------------------------------------------------
+//  Purpose:
+//   Open the port
+//
+//  Notes:
+//
+//----------------------------------------------------------------------------
+int I2C::writeCommandByteValue(uint8_t command, uint8_t value)
+{
+  LoggerSingleton::getInstance()->writeDebug("I2C::writeCommandByteValue");
+
+  uint8_t writeBuffer[2];
+  uint8_t writeLen = 2;
+  writeBuffer[0] = command;
+  writeBuffer[0] = value;
+
+  return writeToDevice(writeBuffer, writeLen);
 }

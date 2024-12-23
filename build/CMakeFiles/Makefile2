@@ -66,6 +66,7 @@ CMAKE_BINARY_DIR = /home/jim/jimscode/cpp/JimsHWCommon/build
 all: CMakeFiles/i2cTest.dir/all
 all: CMakeFiles/tmp117Test.dir/all
 all: CMakeFiles/ads1015Test.dir/all
+all: CMakeFiles/lcdTest.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +77,7 @@ preinstall:
 clean: CMakeFiles/i2cTest.dir/clean
 clean: CMakeFiles/tmp117Test.dir/clean
 clean: CMakeFiles/ads1015Test.dir/clean
+clean: CMakeFiles/lcdTest.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -111,7 +113,7 @@ CMakeFiles/i2cTest.dir/clean:
 CMakeFiles/tmp117Test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jim/jimscode/cpp/JimsHWCommon/build/CMakeFiles --progress-num=16,17,18,19,20,21,22,23 "Built target tmp117Test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jim/jimscode/cpp/JimsHWCommon/build/CMakeFiles --progress-num=24,25,26,27,28,29,30,31 "Built target tmp117Test"
 .PHONY : CMakeFiles/tmp117Test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -155,6 +157,32 @@ ads1015Test: CMakeFiles/ads1015Test.dir/rule
 CMakeFiles/ads1015Test.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/clean
 .PHONY : CMakeFiles/ads1015Test.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lcdTest.dir
+
+# All Build rule for target.
+CMakeFiles/lcdTest.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcdTest.dir/build.make CMakeFiles/lcdTest.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcdTest.dir/build.make CMakeFiles/lcdTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jim/jimscode/cpp/JimsHWCommon/build/CMakeFiles --progress-num=16,17,18,19,20,21,22,23 "Built target lcdTest"
+.PHONY : CMakeFiles/lcdTest.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lcdTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jim/jimscode/cpp/JimsHWCommon/build/CMakeFiles 8
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lcdTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jim/jimscode/cpp/JimsHWCommon/build/CMakeFiles 0
+.PHONY : CMakeFiles/lcdTest.dir/rule
+
+# Convenience name for target.
+lcdTest: CMakeFiles/lcdTest.dir/rule
+.PHONY : lcdTest
+
+# clean rule for target.
+CMakeFiles/lcdTest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcdTest.dir/build.make CMakeFiles/lcdTest.dir/clean
+.PHONY : CMakeFiles/lcdTest.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

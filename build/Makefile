@@ -155,6 +155,19 @@ ads1015Test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/build
 .PHONY : ads1015Test/fast
 
+#=============================================================================
+# Target rules for targets named lcdTest
+
+# Build rule for target.
+lcdTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lcdTest
+.PHONY : lcdTest
+
+# fast build rule for target.
+lcdTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcdTest.dir/build.make CMakeFiles/lcdTest.dir/build
+.PHONY : lcdTest/fast
+
 home/jim/jimscode/cpp/JimsCommon/source/connection.o: home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.o
 .PHONY : home/jim/jimscode/cpp/JimsCommon/source/connection.o
 
@@ -163,6 +176,7 @@ home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcdTest.dir/build.make CMakeFiles/lcdTest.dir/home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.o
 .PHONY : home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.o
 
 home/jim/jimscode/cpp/JimsCommon/source/connection.i: home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.i
@@ -173,6 +187,7 @@ home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcdTest.dir/build.make CMakeFiles/lcdTest.dir/home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.i
 .PHONY : home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.i
 
 home/jim/jimscode/cpp/JimsCommon/source/connection.s: home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.s
@@ -183,6 +198,7 @@ home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcdTest.dir/build.make CMakeFiles/lcdTest.dir/home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.s
 .PHONY : home/jim/jimscode/cpp/JimsCommon/source/connection.cpp.s
 
 home/jim/jimscode/cpp/JimsCommon/source/logger.o: home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.o
@@ -193,6 +209,7 @@ home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcdTest.dir/build.make CMakeFiles/lcdTest.dir/home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.o
 .PHONY : home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.o
 
 home/jim/jimscode/cpp/JimsCommon/source/logger.i: home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.i
@@ -203,6 +220,7 @@ home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcdTest.dir/build.make CMakeFiles/lcdTest.dir/home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.i
 .PHONY : home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.i
 
 home/jim/jimscode/cpp/JimsCommon/source/logger.s: home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.s
@@ -213,6 +231,7 @@ home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcdTest.dir/build.make CMakeFiles/lcdTest.dir/home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.s
 .PHONY : home/jim/jimscode/cpp/JimsCommon/source/logger.cpp.s
 
 home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.o: home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.o
@@ -223,6 +242,7 @@ home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcdTest.dir/build.make CMakeFiles/lcdTest.dir/home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.o
 .PHONY : home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.o
 
 home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.i: home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.i
@@ -233,6 +253,7 @@ home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcdTest.dir/build.make CMakeFiles/lcdTest.dir/home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.i
 .PHONY : home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.i
 
 home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.s: home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.s
@@ -243,6 +264,7 @@ home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcdTest.dir/build.make CMakeFiles/lcdTest.dir/home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.s
 .PHONY : home/jim/jimscode/cpp/JimsCommon/source/loggerSingleton.cpp.s
 
 home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.o: home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.o
@@ -253,6 +275,7 @@ home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcdTest.dir/build.make CMakeFiles/lcdTest.dir/home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.o
 .PHONY : home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.o
 
 home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.i: home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.i
@@ -263,6 +286,7 @@ home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcdTest.dir/build.make CMakeFiles/lcdTest.dir/home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.i
 .PHONY : home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.i
 
 home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.s: home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.s
@@ -273,6 +297,7 @@ home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcdTest.dir/build.make CMakeFiles/lcdTest.dir/home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.s
 .PHONY : home/jim/jimscode/cpp/JimsCommon/source/randomSingleton.cpp.s
 
 source/ads1015.o: source/ads1015.cpp.o
@@ -307,6 +332,7 @@ source/raspi/i2c.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/source/raspi/i2c.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/source/raspi/i2c.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/source/raspi/i2c.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcdTest.dir/build.make CMakeFiles/lcdTest.dir/source/raspi/i2c.cpp.o
 .PHONY : source/raspi/i2c.cpp.o
 
 source/raspi/i2c.i: source/raspi/i2c.cpp.i
@@ -317,6 +343,7 @@ source/raspi/i2c.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/source/raspi/i2c.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/source/raspi/i2c.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/source/raspi/i2c.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcdTest.dir/build.make CMakeFiles/lcdTest.dir/source/raspi/i2c.cpp.i
 .PHONY : source/raspi/i2c.cpp.i
 
 source/raspi/i2c.s: source/raspi/i2c.cpp.s
@@ -327,7 +354,32 @@ source/raspi/i2c.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/source/raspi/i2c.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp117Test.dir/build.make CMakeFiles/tmp117Test.dir/source/raspi/i2c.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ads1015Test.dir/build.make CMakeFiles/ads1015Test.dir/source/raspi/i2c.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcdTest.dir/build.make CMakeFiles/lcdTest.dir/source/raspi/i2c.cpp.s
 .PHONY : source/raspi/i2c.cpp.s
+
+source/serLCD.o: source/serLCD.cpp.o
+.PHONY : source/serLCD.o
+
+# target to build an object file
+source/serLCD.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcdTest.dir/build.make CMakeFiles/lcdTest.dir/source/serLCD.cpp.o
+.PHONY : source/serLCD.cpp.o
+
+source/serLCD.i: source/serLCD.cpp.i
+.PHONY : source/serLCD.i
+
+# target to preprocess a source file
+source/serLCD.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcdTest.dir/build.make CMakeFiles/lcdTest.dir/source/serLCD.cpp.i
+.PHONY : source/serLCD.cpp.i
+
+source/serLCD.s: source/serLCD.cpp.s
+.PHONY : source/serLCD.s
+
+# target to generate assembly for a file
+source/serLCD.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcdTest.dir/build.make CMakeFiles/lcdTest.dir/source/serLCD.cpp.s
+.PHONY : source/serLCD.cpp.s
 
 source/tmp117.o: source/tmp117.cpp.o
 .PHONY : source/tmp117.o
@@ -401,6 +453,30 @@ test/i2cTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/i2cTest.dir/build.make CMakeFiles/i2cTest.dir/test/i2cTest.cpp.s
 .PHONY : test/i2cTest.cpp.s
 
+test/lcdTest.o: test/lcdTest.cpp.o
+.PHONY : test/lcdTest.o
+
+# target to build an object file
+test/lcdTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcdTest.dir/build.make CMakeFiles/lcdTest.dir/test/lcdTest.cpp.o
+.PHONY : test/lcdTest.cpp.o
+
+test/lcdTest.i: test/lcdTest.cpp.i
+.PHONY : test/lcdTest.i
+
+# target to preprocess a source file
+test/lcdTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcdTest.dir/build.make CMakeFiles/lcdTest.dir/test/lcdTest.cpp.i
+.PHONY : test/lcdTest.cpp.i
+
+test/lcdTest.s: test/lcdTest.cpp.s
+.PHONY : test/lcdTest.s
+
+# target to generate assembly for a file
+test/lcdTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcdTest.dir/build.make CMakeFiles/lcdTest.dir/test/lcdTest.cpp.s
+.PHONY : test/lcdTest.cpp.s
+
 test/tmp117Test.o: test/tmp117Test.cpp.o
 .PHONY : test/tmp117Test.o
 
@@ -435,6 +511,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ads1015Test"
 	@echo "... i2cTest"
+	@echo "... lcdTest"
 	@echo "... tmp117Test"
 	@echo "... home/jim/jimscode/cpp/JimsCommon/source/connection.o"
 	@echo "... home/jim/jimscode/cpp/JimsCommon/source/connection.i"
@@ -454,6 +531,9 @@ help:
 	@echo "... source/raspi/i2c.o"
 	@echo "... source/raspi/i2c.i"
 	@echo "... source/raspi/i2c.s"
+	@echo "... source/serLCD.o"
+	@echo "... source/serLCD.i"
+	@echo "... source/serLCD.s"
 	@echo "... source/tmp117.o"
 	@echo "... source/tmp117.i"
 	@echo "... source/tmp117.s"
@@ -463,6 +543,9 @@ help:
 	@echo "... test/i2cTest.o"
 	@echo "... test/i2cTest.i"
 	@echo "... test/i2cTest.s"
+	@echo "... test/lcdTest.o"
+	@echo "... test/lcdTest.i"
+	@echo "... test/lcdTest.s"
 	@echo "... test/tmp117Test.o"
 	@echo "... test/tmp117Test.i"
 	@echo "... test/tmp117Test.s"

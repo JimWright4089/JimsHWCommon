@@ -1,16 +1,15 @@
 //----------------------------------------------------------------------------
 //
-//  Workfile: i2c.h
+//  Workfile: tmp117.h
 //
 //  Copyright: Jim Wright 2024
 //
 //  Notes:
-//     This is the I2C interface header
-//     Include the correct hardware source file
+//     This is the interface to the TMP117
 //
 //----------------------------------------------------------------------------
-#ifndef I2C_H
-#define I2C_H
+#ifndef SERLCD_H
+#define SERLCD_H
 
 //----------------------------------------------------------------------------
 //  Includes
@@ -18,6 +17,7 @@
 #include <string>
 #include <mutex>
 #include "connection.h"
+#include "i2c.h"
 
 //----------------------------------------------------------------------------
 //  Class Declarations
@@ -29,48 +29,48 @@
 //      Handle the I2C protocol
 //
 //----------------------------------------------------------------------------
-class I2C
+class SerLCD
 {
   public:
     //----------------------------------------------------------------------------
-    //  Class constants
-    //----------------------------------------------------------------------------
-    static const uint16_t I2C_UINT16_BAD_VALUE = 65535;
-
-    //----------------------------------------------------------------------------
     //  Class Methods
     //----------------------------------------------------------------------------
-    I2C();  
-    ~I2C();
-    void loadConfiguration(std::string fileName);
-    void openPort();
-    void closePort();
-    uint16_t read16Register(uint8_t reg);
-    int writeCommand(uint8_t command);
-    int writeCommandByteValue(uint8_t command, uint8_t value);
-    int writeReadFromDevice(uint8_t *dataToWrite, int lengthToWrite, uint8_t *dataRead, int *lengthRead);
-    int readFromDevice(uint8_t *dataRead, int *lengthRead);
-    int writeToDevice(uint8_t *data, int length);
+    SerLCD();  
+    ~SerLCD();
+    void loadConfiguration(std::string filename);
+    void openSerLCD();
+    void closeSerLCD();
+    int writeText(uint8_t* text, int length);
+    int reset();
+    int clearAll();
+    int moveCursor(int x, int y);
+    int setBlacklight(uint8_t red, uint8_t green, uint8_t blue);
+    int setContrast(uint8_t light);
 
   protected:
     //----------------------------------------------------------------------------
     //  Class constants
     //----------------------------------------------------------------------------
-    const int BAD_I2C_PORT = -1;
+    const uint8_t CLEAR_COMMAND = 0x2D;
+    const uint8_t SPECIAL_COMMAND = 254;
+    const uint8_t SETTING_COMMAND = 0x7C;  
+    const uint8_t CONTRAST_COMMAND = 0x18;
+    const uint8_t LCD_DISPLAYCONTROL = 0x08;
+    const uint8_t LCD_DISPLAYON = 0x04;
+    const uint8_t LCD_DISPLAYOFF = 0x00;
+    const uint8_t RESET_COMMAND = 0x08;
+    const uint8_t SET_RGB_COMMAND = 0x2B;
+    const uint8_t BACKLIGHT_RED = 128;
+    const uint8_t BACKLIGHT_GREEN = 158;
+    const uint8_t BACKLIGHT_BLUE = 188;
 
     //----------------------------------------------------------------------------
     //  Class Atributes
     //----------------------------------------------------------------------------
-    Connection mConnection;
-    static std::mutex mI2CMutex;
-    int mDeviceFilePointer;
-    int mAddress;
+    I2C mI2CDevice;
 
     //----------------------------------------------------------------------------
     //  Class Methods
     //----------------------------------------------------------------------------
-    int rawRead(uint8_t *dataRead, int *lengthRead);
-    int rawWrite(uint8_t *data, int length);
-    int setAddress(uint8_t address);
 };
 #endif

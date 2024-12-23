@@ -137,7 +137,7 @@ uint16_t ADS1015::readPort(uint8_t port)
   writeBuffer[2] = (config)&0xFF;;
   writeLen = 3;
 
-  mI2CDevice.writeFromDevice(writeBuffer, writeLen);
+  mI2CDevice.writeToDevice(writeBuffer, writeLen);
 
   uint8_t timeoutCount = 0;
 

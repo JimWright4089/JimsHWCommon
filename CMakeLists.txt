@@ -49,4 +49,15 @@ add_executable(ads1015Test
 )
 target_link_libraries(ads1015Test jsoncpp ${Boost_LIBRARIES})
 
+add_executable(lcdTest
+../JimsCommon/source/randomSingleton.cpp
+../JimsCommon/source/connection.cpp
+../JimsCommon/source/logger.cpp
+../JimsCommon/source/loggerSingleton.cpp
+./source/raspi/i2c.cpp
+./source/serLCD.cpp
+./test/lcdTest.cpp
+)
+target_link_libraries(lcdTest jsoncpp ${Boost_LIBRARIES})
+
 
